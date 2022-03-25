@@ -1,0 +1,219 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+hr {
+  color: #607d8b;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/* first page starts here */
+
+.header {
+  width: 100%;
+  background-color: white;
+  padding: 15px;
+  position: fixed;
+  z-index: 1;
+
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(184, 180, 184, 1);
+  -moz-box-shadow: 0px 4px 5px 0px rgba(184, 180, 184, 1);
+  box-shadow: 0px 4px 5px 0px rgba(184, 180, 184, 1);
+}
+
+.span {
+  display: inline-flex;
+  position: absolute;
+  top: 0;
+  left: 77%;
+  padding: 10px;
+  z-index: 2;
+}
+
+a {
+  color: rgb(44, 43, 43);
+  padding: 7px;
+  text-decoration: none;
+  letter-spacing: 5px;
+}
+
+a:hover {
+  background-color: rgba(204, 204, 204, 0.87);
+}
+
+#menu,
+#contact {
+  margin-left: 10px;
+}
+
+.img-ham {
+  display: inline-flex;
+  position: relative;
+  margin-top: 48px;
+  height: 90vh;
+  width: 1263px;
+  clear: both;
+}
+
+#hamburger {
+  display: flex;
+  width: inherit;
+}
+
+.lecatering {
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  font-size: 40px;
+  letter-spacing: 5px;
+  color: rgb(95, 94, 94);
+}
+
+/*  second page starts here */
+
+.second {
+  margin-top: 80px;
+  margin-left: 100px;
+  margin-right: 40px;
+  padding-bottom: 10px;
+  margin-bottom: 70px;
+  position: relative;
+}
+
+#sec-image {
+  width: 500px;
+  opacity: 0.7;
+}
+
+.secondtext {
+  padding: 100px;
+  padding-left: 50px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.heading1 {
+  font-size: 40px;
+  letter-spacing: 5px;
+  margin-bottom: 25px;
+}
+
+.heading2 {
+  font-size: 20px;
+  letter-spacing: 5px;
+  margin-bottom: 25px;
+}
+
+.para,
+#secondpara {
+  font-size: 18px;
+  padding-top: 10px;
+  letter-spacing: 2px;
+}
+
+.check,
+.check2 {
+  display: flex;
+}
+
+/* third page starts here */
+
+.third-text {
+  margin-top: 80px;
+  margin-left: 100px;
+  margin-right: 40px;
+  margin-bottom: 35px;
+  position: relative;
+  line-height: 45px;
+}
+
+.third {
+  margin-left: 25px;
+  margin-top: 80px;
+  margin-right: 40px;
+  margin-bottom: 35px;
+  box-sizing: border-box;
+}
+
+.main-head {
+  font-size: 40px;
+  letter-spacing: 5px;
+  margin-bottom: 25px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.head1 {
+  font-size: 20px;
+  letter-spacing: 5px;
+  margin-top: 20px;
+}
+
+.head2 {
+  font-size: 15px;
+  color: gray;
+}
+
+#third-image {
+  opacity: 0.8;
+  margin-left: 50px;
+}
+
+/* last page here, like a contact page guys, Enjoy!! */
+
+.last {
+  padding: 100px;
+  padding-top: 50px;
+}
+
+.p1 {
+  font-size: 40px;
+  letter-spacing: 5px;
+  margin-bottom: 25px;
+  padding-bottom: 30px;
+}
+
+.p3 {
+  color: #607d8b;
+  font-size: 18px;
+}
+
+/* Taking all the inputs */
+
+.name,
+.number,
+.date-time,
+.message {
+  width: 1050px;
+  padding: 18px 8px;
+  margin: 20px;
+  margin-left: -2px;
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.submit {
+  padding: 8px 16px;
+  margin: 16px 0px;
+  margin-left: -2px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  border: none;
+}
+
+/* Declaration */
+
+.powered {
+  background-color: #dadadaea;
+  text-align: center;
+  padding: 50px;
+  margin-top: -40px;
+}
+
+span {
+  text-decoration: underline;
+}
